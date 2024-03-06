@@ -1,2 +1,502 @@
 new line
 second line
+   43  mkdir ignored
+   44  cd ignored
+   45  pwd
+   46  vi .gitignored
+   47  git commit -a -m "gitignore initiated1.1"
+   48  git add .
+   49  git add panda.png
+   50  touch panda.png
+   51  git status
+   52  git status
+   53  git add Panda.jpg
+   54  touch Panda.jpg
+   55  git status
+   56  git add panda.jpg
+   57  touch panda.jpg
+   58  git status
+   59  git add panda.png
+   60  touch panda.png
+   61  git status
+   62  add hello.c
+   63  git add hello.c
+   64  git checkout dev
+   65  git add hello.c
+   66  git checkout master
+   67  vi .gitignore
+   68  git commit -a -m"gitignore initiated"
+   69  git add .
+   70  git status
+   71  vi hello.py
+   72  git status
+   73  clear
+   74  cd ..
+   75  cd ..
+   76  mkdir practical_24feb
+   77  cd practical_24feb
+   78  git init
+   79  git commit -m"arjun"
+   80  git log
+   81  git branch case_I
+   82  vi .hello.txt
+   83  git add .
+   84  git status
+   85  git branch case_I
+   86  git commit -m"12"
+   87  git add .
+   88  git branch case_I
+   89  git checkout case_I
+   90  clear
+   91  git commit -m"write case for addition using switch case"
+   92  vi .calculator
+   93  git add .
+   94  git commit -m"write case for subtraction using switch case"
+   95  git branch case_II
+   96  git checkout case_II
+   97  vi calculator.c
+   98  git add .
+   99  git commit -m"write case for multiplication using switch case"
+  100  vi calculator.c
+  101  git add .
+  102  git commit -m"write case for division using switch case"
+  103  git log --oneline
+  104  git checkout master
+  105  git log --oneline
+  106  git checkout case_I
+  107  git checkout case_II
+  108  git merge master
+  109  git merge master caseII
+  110  git merge master case_II
+  111  cd ..
+  112  cd ..
+  113  cd 23feb
+  114  git checkout master
+  115  git add .
+  116  git commit -m"hello"
+  117  git checkout master
+  118  git remote
+  119  git remote add origin
+  120  git remote add origin https://github.com/vashistarjun/febb23.git
+  121  git push -u origin master
+  122   cd ..
+  123  cd ..
+  124  cd c
+  125  mkdir clone
+  126  cd clone
+  127  pwd
+  128  git status
+  129  git clone https://github.com/MonitKapoor/23feb.git
+  130  git status
+  131  git branch dev1
+  132  git checkout dev1
+  133  cd 23feb
+  134  git status
+  135  git branch dev1
+  136  git checkout dev1
+  137  git pull
+  138   git branch --set-upstream-to=origin/dev1 dev1 
+  139  git pull
+  140   cd ..
+  141  cd ..
+  142  mkdir clone_new
+  143  cd clone_new
+  144  git clone https://github.com/vashistarjun/16hfeb_class
+  145  cd 16hfeb_class
+  146  git log --oneline
+  147  ls 
+  148  git branch 
+  149  cd 
+  150  cd ..
+  151  cd ..
+  152  mkdir march
+  153  cd march
+  154  mkdir m1
+  155  cd m1
+  156  mkdir Assess_0048
+  157  cd Assess_0048
+  158  pwd
+  159  mkdir img
+  160  git init
+  161  vi hello.c
+  162  vi text.txt
+  163  html.html
+  164  vi html.html
+  165  vi photo.img
+  166  git init
+  167  vi hello.c
+  168  vi hello.txt
+  169  vi hello.html
+  170  git add .
+  171  cd ..
+  172  cd ..
+  173  mkdir p_0048
+  174  cd p_0048
+  175  mkdir arjun
+  176  pwd
+  177  cd arjun
+  178  pwd
+  179  cd ..
+  180  mkdir p1_0048
+  181  cd p1_0048
+  182  mkdir arjun1
+  183  pwd
+  184  cd arjun1
+  185  pwd
+  186  mkdir img
+  187  git init
+  188  vi hello.c
+  189  vi hello.txt
+  190  vi hello.html
+  191  git add .
+  192  vi hello.c
+  193  vi hello.txt
+  194  vi hello.html
+  195  git commit -m" changes in .c file"
+  196  git log --oneline
+  197  vi hello.c
+  198  git commit -m" changes in .c files"
+  199  git add hello.c
+  200  git commit -m" changes in .c file"
+  201  git log --oneline
+  202  vi hello.txt
+  203  vi hello.html
+  204  git add .
+  205  git commit -m" changes in .txt and .html file"
+  206  git log --oneline
+  207  git remote add origin https://github.com/vashistarjun/arjun1.git
+  208  git remote
+  209  git push -u origin master
+  210  vi .gitignore
+  211  cd img
+  212  vi .gitignore
+  213  git add .
+  214  git commit -m" .c and .txt file"
+  215  vi hello.c
+  216  git status
+  217  git add .
+  218  git status
+  219  cp -r arjun1/.img/
+  220  cd ..
+  221  cp -r * img/
+  222  cd img
+  223  ls
+  224  vi hello.c
+  225  vi hello.txt
+  226  cd ..
+  227  vi log.txt
+  228  git add .
+  229  git commit -m"ok" 
+  230  git push -u
+  231  cd ..
+  232  cd ..
+  233  mkdrir 121
+  234  mkdir 121
+  235  cd 121
+  236  cd 1211
+  237  mkdir 1211
+  238  cd 1211
+  239  mkdir practical
+  240  cd practical
+  241  pwd
+  242  mkdir img
+  243  git init
+  244  vi hello.c
+  245  vi hello.txt
+  246  vi hello.html
+  247  git add .
+  248  git status
+  249  git commit -m"changes in .c .html .txt"
+  250  git --oneline
+  251  git commit -m"ok"
+  252  git commit -m"okayy"
+  253  git log --oneline
+  254  git add .
+  255  git status
+  256  mkdir p
+  257  cd p
+  258  mkdir img1
+  259  git init
+  260  vi hello.c
+  261  vi hello.txt
+  262  vi hello.html
+  263  git add .
+  264  git commit -m"okay"
+  265  git log --oneline
+  266  vi hello.c
+  267  git commit -m"o"
+  268  git add hello.c
+  269  cd ..
+  270  cd ..
+  271  mkdir 1
+  272  cd 1
+  273  mkdir 2
+  274  cd 2
+  275  mkdir 3
+  276  cd 3
+  277  pwd
+  278  mkdir img
+  279  git init
+  280  vi hello.c
+  281  vi hello.txt
+  282  vi hello.html
+  283  git add .
+  284  vi hello.c
+  285  vi hello.txt
+  286  vi hello.txt
+  287  vi hello.html
+  288  git commit -m" changes made in 3 files i.e hello.c hello.txt and hello.html"
+  289  git add .
+  290  vi hello.c
+  291  git commit -m" only c is modified"
+  292  git add hello.c
+  293  git commit -m"on;y c"
+  294  git log --oneline
+  295  vi hello.txt
+  296  vi hello.html
+  297  git add .
+  298  vi hello.txt
+  299  vi hello.html
+  300  git commit -m"changes in html and txt"
+  301  git add .
+  302  git commit -m"o"
+  303  vi hello.c
+  304  git add .
+  305  git commit -m"c changed"
+  306  cd ..
+  307  cd ..
+  308  mkdir 12bj
+  309  cd 12bj
+  310  mkdir 1
+  311  git init
+  312  git remote add origin https://github.com/vashistarjun/arjunscma.git
+  313  git remote
+  314  git push -u origin master
+  315  vi .gitignore
+  316  cd img
+  317  vi add .
+  318  git add .
+  319  git commit -m"p"
+  320  git log --onelibne
+  321  git log --oneline
+  322  ls
+  323  ls
+  324  cd img
+  325  git status
+  326  git add .
+  327  git status
+  328  cd ..
+  329  cd img
+  330  ls
+  331  cd
+  332  cd arjun
+  333  cd c
+  334  cd ..
+  335  cd ..
+  336  cd arjun
+  337  cd vashist
+  338  cd assess_0048
+  339  cd img
+  340  cd ..
+  341  history >>log.txt
+  342  vi log.txt
+  343  git add .
+  344  cd ..
+  345  cd ..
+  346  mkdir a
+  347  cd a
+  348  mkdir v
+  349  cd v
+  350  mkdir 0048
+  351  cd 0048
+  352  pwd
+  353  git init
+  354  mkdir img
+  355  vi h.c
+  356  vi h.txt
+  357  vi h.html
+  358  vi h.img
+  359  git add .
+  360  git add .
+  361  vi h.c
+  362  vi h.txt
+  363  vi h.html
+  364  git commit -m"a"
+  365  vi h.txt
+  366  vi h.html
+  367  vi h.c
+  368  git add .
+  369  git add.
+  370  git add .
+  371  git commit -m"a"
+  372  vi h.txt
+  373  git add .
+  374  git commit -m"a"
+  375  clear
+  376  cd ..
+  377  cd ..
+  378  mkdir 48
+  379  cd 48
+  380  pwd
+  381  mkdir img
+  382  git init
+  383  vi h.c
+  384  vi h.txt
+  385  vi h.html
+  386  vi h.img
+  387  git add .
+  388  git add .
+  389  vi h.c
+  390  vi h.txt
+  391  vi h.html
+  392  vi h.html
+  393  git add .
+  394  git commit -m"a"
+  395  git add .
+  396  git commit -m"a"
+  397  vi .gitignore
+  398  cd img
+  399  vi .gitignore
+  400  git add .
+  401  git status
+  402  git add .
+  403  git status
+  404  ls
+  405  cd ..
+  406  ls
+  407  git log --oneline
+  408  cd ..
+  409  cd ..
+  410  mkdir practical
+  411  cd practical
+  412  mkdir practical1
+  413  cd practical1
+  414  mkdir Assess_0048
+  415  cd Assess_0048
+  416  mkdir sub_1
+  417  mkdir sub_2
+  418  git .gitignore
+  419  git init
+  420  mkdir sub1
+  421  mkdir sub2
+  422  vi .gitignore
+  423  vi hello.txt
+  424  vi hello.c
+  425  vi hello.html
+  426  git add .
+  427  git add .
+  428  vi hello.c
+  429  vi hello.txt
+  430  vi hello.html
+  431  git add .
+  432  git commit -m" content added to all 3 files "
+  433  git log --oneline
+  434  vi hello.html
+  435  git add .
+  436  git add .
+  437  git commit -m" content is modify in .html file"
+  438  git log --oneline
+  439  vi hello.c
+  440  git add .
+  441  git add .
+  442  git commit -m"content is modified in .c file"
+  443  git log --oneline
+  444  cat hello.c
+  445  cat hello.txt
+  446  cat hello.html
+  447  cd sub1
+  448  vi hello.c
+  449  cat hello.c
+  450  vi hello.txt
+  451  cat hello.txt
+  452  vi hello.html
+  453  cat hello.html
+  454  vi hello.html
+  455  cat hello.html
+  456  cd ..
+  457  cd sub2
+  458  vi hello.c
+  459  cat hello.c
+  460  vi hello.txt
+  461  vi hello.html
+  462  cat hello.html
+  463  cd ..
+  464  cd sub1
+  465  vi .gitignore
+  466  cd ..
+  467  cd sub2
+  468  vi .gitignore
+  469  cd ..
+  470  cd sub1
+  471  git status
+  472  git add .
+  473  vi .gitignore
+  474  git status
+  475  git add .
+  476  git add .
+  477  git status
+  478  vi hello.c
+  479  vi hello.txt
+  480  history >>log.txt
+  481  vi log.txt
+  482  git commit -m"done"
+  483  git remote add origin https://github.com/vashistarjun/Assess_0048.git
+  484    
+  485  git remote
+  486  git push -u origin master
+  487  cd ..
+  488  git push -u
+  489  git remote add origin https://github.com/vashistarjun/assess__0048.git
+  490  git remote add origin1 https://github.com/vashistarjun/assess__0048.git
+  491  git remote
+  492  git push -u origin1 master
+  493  cd sub2
+  494  cd ..
+  495  cd sub2
+  496  git remote add origin2 https://github.com/vashistarjun/assess0048.git
+  497  git push -u origin2 master
+  498  cd ..
+  499  cd ..
+  500  cd assess_0048
+  501  cd ..
+  502  cd ..
+  503  assesss_0048
+  504  mkdir assesss_0048
+  505  pwd
+  506  cd assesss_0048
+  507  pwd
+  508  mkdir sub_1
+  509  git add sub_1
+  510  git init
+  511  git add sub_1
+  512  mkdir sub_2
+  513  git add sub_2
+  514  vi .gitignore
+  515  git add .
+  516  vi hello.txt
+  517  vi hello.c
+  518  vi hello.html
+  519  git add .
+  520  git commit -m "First commit"
+  521  vi hello.html
+  522  git add hello.html
+  523  git commit -m "Second commit"
+  524  vi hello.c
+  525  git add hello.c
+  526  git commit -m "Third commit"
+  527  git lod --oneline
+  528  git log --oneline
+  529  cp -r * sub_1/
+  530  cp -r * sub_2/
+  531  cd sub_1
+  532  vi hello.txt
+  533  git add -f hello.txt
+  534  git commit -m "Fourth commit"
+  535  cd ..
+  536  cd sub_2
+  537  touch image
+  538  cd "C:\Users\HP\Pictures\Screenshots\Screenshot (80).png" "/c/assesss_0048/sub_2/image"
+  539  cp "C:\Users\HP\Pictures\Screenshots\Screenshot (80).png" "/c/assesss_0048/sub_2/image"
+  540  cd ..
+  541  cd sub_1
+  542  history >>hello.txt
